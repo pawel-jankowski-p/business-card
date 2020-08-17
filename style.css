@@ -7,7 +7,6 @@ html {
   box-sizing: inherit;
 }
 body {
-
   background: #2c2141;
   display: flex;
   align-items: center;
@@ -24,31 +23,40 @@ body {
 }
 
 .person {
-    
 }
 
 .person__description {
-    font-size: 16px;
-    line-height: 22px;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0px;
+}
+.person__description--with-margin {
+    margin-bottom: 22px;
+}
+
+.person__info {
+  margin-bottom: 24px;
 }
 
 .person__name {
-    font-size: 36px;
-    margin: 0;
-    font-weight: normal;
+  font-size: 36px;
+  margin: 0;
+  font-weight: normal;
+}
 
+.person__link {
+  color: #e20613;
+  text-decoration: none;
 }
 
 .person__position {
-    font-size: 18px;
-    color: #545454;
-    margin: 0px;
-    font-style: italic;
-    
-    
+  font-size: 18px;
+  color: #545454;
+  margin: 0px;
+  font-style: italic;
 }
 
 .special {
-    color: #ED6D05;
-    font-weight: normal;
+  color: #ed6d05;
+  font-weight: normal;
 }
